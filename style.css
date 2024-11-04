@@ -18,19 +18,19 @@ a{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    width: 100%;
     align-items: center;
     padding-top: 20px;
-}
-.sectionOneInnerContainer{
-    width: 1100px;
+    width: 100%;
 }
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    flex-wrap: nowrap;
+    width: 1100px;
+    max-width: 1100px;
+
 }
 
 .links{
@@ -49,18 +49,22 @@ a{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    flex: 1;
 }
 .headerContent{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    max-width: 1100px;
+    gap: 60px;
+    flex-wrap: wrap;
 }
-.headerImage p{
+.headerImage{
     color: #E5E7EB;
+    flex: 1;
     font-size: 18px;
-    width: 580px;
+    min-width: 560px;
     height: 250px;
     background-color: rgb(113, 118, 124);
     display: flex;
