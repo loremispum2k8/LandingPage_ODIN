@@ -160,7 +160,53 @@ button a{
     color: #1F2937;
 }
 .Three h4{
-    font-size: 18px;
+    font-size: 24px;
     align-self: flex-end;
     margin-right: 50px;
+}
+
+
+.Four{
+    width: 100%;
+    align-items: center;
+}
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #3882F6;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+}
+.card h3{
+    font-size: 24px;
+}
+.card h4{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.card button{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px 0px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
